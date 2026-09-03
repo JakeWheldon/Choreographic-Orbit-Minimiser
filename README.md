@@ -1,2 +1,24 @@
 # Choreographic-Orbit-Minimizer
-These are a collection of minimizers and integrators I used to investigate choreographic orbits in the n-Body problem, I summarise my results in the report "Numerical Methods in the n-Body Problem". The chief aim of the project is to produce a functional minimization algorithm that takes some initial closed curve to a choreographic (spatially and temporally symmetric) orbit permitted by Newtonian gravity. The minimizer specified to do this for the D'2 symmetry group, that of the figure-8 orbit, is given in this folder. The remaining files are various sympectic numerical integrators, and a Runge-Kutta 4 method used as a test case. The report can be found within the repository, this goes in to more details on the motivations and development of the minimizer, as well as displaying results.
+
+A collection of minimizers and numerical integrators developed to investigate 
+choreographic orbits in the Newtonian n-body problem. Full results and 
+methodology are detailed in the accompanying report, *Numerical Methods in 
+the n-Body Problem*.
+
+## Aim
+
+Produce a functional minimisation algorithm that deforms an initial closed 
+curve into a choreographic orbit — one exhibiting both spatial and temporal 
+symmetry — permitted by Newtonian gravity.
+
+## Contents
+
+- **Minimizer** — implements the algorithm for the D₂' symmetry group (the 
+  figure-8 orbit).
+- **Integrators** — a set of symplectic numerical integrators, plus a 
+  Runge-Kutta 4 method used as a benchmark.
+
+## Report
+
+`Numerical Methods in the n-Body Problem` (included in this repository) 
+covers the motivation, development, and results of the minimizer in full.
